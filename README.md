@@ -1,6 +1,6 @@
 # Primer ejemplo completo: Pepita
 
-![Pepita](img/pepita.jpg =120x120) 
+<img src="img/pepita.jpg" height="150" width="150">
 
 *Pepita* es un ave que sabe volar y comer.
 
