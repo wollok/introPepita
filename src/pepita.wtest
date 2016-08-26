@@ -1,25 +1,25 @@
 import pepita.*
 
 test "pepita comienza con 100 joules de energia" {
-	assert.equals(pepita.energia(), 100)
+	assert.equals(100, pepita.energia())
 }
 
 test "pepita vuela 5 kilómetros y le queda 85 joules de energía" {
 	pepita.volar(5)
-	assert.equals(pepita.energia(), 85)
+	assert.equals(85, pepita.energia())
 }
 
 test "pepita empieza a volar, no vuela nada al final y le queda 90 joules de energía" {
 	pepita.volar(0)
-	assert.equals(pepita.energia(), 90)
+	assert.equals(90, pepita.energia())
 }
 
 test "pepita come 120 gramos y suma 480 de energia" {
 	pepita.comer(120)
-	assert.equals(pepita.energia(), 580)
+	assert.equals(580, pepita.energia())
 }
 
 test "pepita come 0 gramos y no suma energia" {
 	pepita.comer(0)
-	assert.equals(pepita.energia(), 100)
+	assert.equals(100, pepita.energia())
 }
