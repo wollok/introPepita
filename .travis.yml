@@ -1,0 +1,9 @@
+language: generic
+
+sudo: required
+
+script:
+    - git clone https://github.com/uqbar-project/wollok-ci
+    - chmod 777 ./winterpreter.sh
+    - ./winterpreter.sh ./src/pepita.wtest
+    
