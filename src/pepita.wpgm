@@ -9,3 +9,4 @@ program pepitaFuerte {
 	console.println("¿Pepita es fuerte?")
 	console.println(pepita.esFuerte())
 }
+
