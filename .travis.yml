@@ -4,7 +4,7 @@ sudo: required
 
 script:
     - git clone https://github.com/uqbar-project/wollok-cli
-    - mv wollok-cli/* ./
+    - export PATH="$PATH:/wollok-cli/"
     - chmod 777 ./runTests.sh
     - ./runTests.sh
     
