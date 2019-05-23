@@ -8,5 +8,5 @@ script:
     - chmod 777 ./wollok-cli/runTests.sh
     - export PATH="$PATH:/wollok-cli/"
     - echo $PATH
-    - ./runTests.sh
+    - runTests.sh
     
