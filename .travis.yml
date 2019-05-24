@@ -6,6 +6,6 @@ script:
     - git clone --branch=relativePath https://github.com/uqbar-project/wollok-cli
     - chmod 777 ./wollok-cli/runTests.sh
     - export PATH="$PATH:./wollok-cli"
-    - echo pwd
+    - pwd
     - runTests.sh
     
