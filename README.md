@@ -14,5 +14,3 @@ Tenés una batería de **tests** que aplican sobre pepita,
 * para el estado inicial de pepita
 * para los casos de éxito
 * y para los casos con valores límite 
-
-
