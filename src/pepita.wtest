@@ -9,14 +9,13 @@ test "pepita comienza siendo fuerte" {
 }
 
 test "pepita vuela 5 kilómetros y queda con 85 de energía" {
-	1 / 0
 	pepita.volar(5)
 	assert.equals(85, pepita.energia())
 }
 
 test "pepita come 120 gramos y su energía es 580" {
 	pepita.comer(120)
-	assert.equals(1580, pepita.energia())
+	assert.equals(580, pepita.energia())
 }
 
 test "pepita empieza a volar, no vuela y la energía baja a 90" {
