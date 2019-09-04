@@ -15,7 +15,7 @@ object pepita {
 	}
 
 	method comer(gramos) {
-		energia = energia + 4 / gramos
+		energia = energia + 4 * gramos
 	}
 
 }
