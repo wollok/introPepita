@@ -1,0 +1,6 @@
+import pepita.*
+
+test "pepita exists" {
+  pepita
+	assert.equals(1, 1)
+}
