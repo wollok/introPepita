@@ -2,7 +2,7 @@
 
 <img src="img/pepita.jpg" height="150" width="150">
 
-[![Build Status](https://travis-ci.org/wollok/introPepita.svg?branch=master)](https://travis-ci.org/wollok/introPepita)
+[![Build Status](https://github.com/wollok/introPepita/actions/workflows/ci.yml/badge.svg)](https://github.com/wollok/introPepita/actions/workflows/ci.yml)
 
 *Pepita* es un ave que sabe volar y comer.
 
